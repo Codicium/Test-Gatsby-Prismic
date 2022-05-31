@@ -1,0 +1,58 @@
+{
+    "Main" : {
+      "author" : {
+        "type" : "Group",
+        "config" : {
+          "fields" : {
+            "author__img" : {
+              "type" : "Image",
+              "config" : {
+                "constraint" : {
+                  "width" : 150,
+                  "height" : 150
+                },
+                "thumbnails" : [ ],
+                "label" : "author__img"
+              }
+            },
+            "author__name" : {
+              "type" : "StructuredText",
+              "config" : {
+                "single" : "heading1",
+                "label" : "Full name"
+              }
+            },
+            "author__bio" : {
+              "type" : "StructuredText",
+              "config" : {
+                "multi" : "paragraph,preformatted,strong,em,hyperlink,image,list-item,o-list-item,rtl",
+                "label" : "Bio"
+              }
+            }
+          },
+          "label" : "Author"
+        }
+      },
+      "social__media" : {
+        "type" : "Group",
+        "config" : {
+          "fields" : {
+            "social__name" : {
+              "type" : "Text",
+              "config" : {
+                "label" : "Name"
+              }
+            },
+            "social__link" : {
+              "type" : "Link",
+              "config" : {
+                "label" : "Link",
+                "select" : null
+              }
+            }
+          },
+          "label" : "Social media"
+        }
+      }
+    }
+  }

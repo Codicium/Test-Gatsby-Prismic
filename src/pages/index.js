@@ -19,8 +19,11 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>The Blog!</b> Amazing news (and some other news) will appear here shortly.
+        Welcome to <b>The Blog!</b>
       </h1>
+      <h4>
+        Amazing news (and some other news) will appear here shortly.
+      </h4>
     </div>
   </Layout>
 )
